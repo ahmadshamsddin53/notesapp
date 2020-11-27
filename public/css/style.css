@@ -1,0 +1,93 @@
+header {
+    background-color: #43799d;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#notes {
+    padding: 20px 0;
+}
+
+p {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
+.noteName {
+    color: #69666a;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.noteTime {
+    font-style: italic;
+    color: #88817b;
+}
+
+.fas {
+    float: right;
+    color: #43799d;
+}
+
+.showModal {
+    border: 1px solid #DEDFE0;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    padding: .4rem .8rem;
+    color: #ffffff;
+    background-color: #43799d;
+}
+
+.filterSection {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dedfe8;
+    padding: .8rem;
+    text-align: center;
+}
+
+#input {
+    border: 1px solid #DEDFE0;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    padding: .4rem .8rem;
+}
+
+.filterSection select {
+    border-radius: 5px;
+    border: 1px solid #DEDFE0;
+    background: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    padding: .4rem .8rem;
+}
+
+.editNote {
+    background-color: #dedfe8;
+}
+
+main {
+    background-color: #f7f7ff;
+    border: 1px solid #DEDFE0; 
+    padding: 30px; 
+    margin-top: 50px;
+}
+
+main input {
+    width: 65%
+}
