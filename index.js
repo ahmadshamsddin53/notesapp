@@ -14,4 +14,4 @@ app.get('/note', (req, res) => {
     res.render('note')
 })
 
-app.listen(8000, '0.0.0.0')
+app.listen(8000)
