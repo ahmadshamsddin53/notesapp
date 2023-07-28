@@ -8,6 +8,7 @@ app.use(expressLayouts)
 
 app.get('/', (req, res) => {
     res.render('index')
+    // test
 })
 
 app.get('/note', (req, res) => {
