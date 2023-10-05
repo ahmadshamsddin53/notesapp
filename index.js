@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
     res.render('index')
     // test
     // test from test-branch
+    // hello adnan
 })
 
 app.get('/note', (req, res) => {
